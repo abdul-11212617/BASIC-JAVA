@@ -7,5 +7,6 @@ public class Input {
         String name =sc.nextLine();
 
         System.out.println("Your name is: "+name);
+        
     }
 }
