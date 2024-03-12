@@ -1,12 +1,19 @@
+//  Write a function which takes in 2 numbers and returns ther sum and mulltiply.
 import java.util.*;
 
 public class function3 {
-    public static int sum(int A, int B) {
+    public static void SumMul(int A, int B) {
         int sum = A + B;
-        System.out.println(sum);
-        return sum;
-        // System.out.println(sum);
+        int mul = A * B;
+        System.out.println("Sum are "+sum);
+        System.out.println("mul are "+mul);
+        //return sum,;
     }
+    // public static int mul(int A, int B){
+    //     int mul = A * B;
+    //     System.out.println(mul);
+    //     return mul;
+    //}
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,6 +22,7 @@ public class function3 {
         System.out.print("Enter second number:");
         int B = sc.nextInt();
 
-        sum(A, B);
+        SumMul(A , B);
+       // mul(A , B);
     }
 }
