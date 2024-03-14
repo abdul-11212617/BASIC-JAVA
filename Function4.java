@@ -6,7 +6,7 @@ public class Function4 {
     int a = 1;
     if(n<0){
       System.out.println("Number is not valid");
-      return;
+    return;
     }
     for(int i = 1; i <= n; i++){
        a = (a*i);
