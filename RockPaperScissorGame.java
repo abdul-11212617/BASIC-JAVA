@@ -5,7 +5,7 @@ public class RockPaperScissorGame {
         System.out.print("Enter your name:");
         String name =sc.nextLine();
         
-        System.out.println(name+" Welcome! to the Rock Paper Scissors Game");
+        System.out.println(name+" Welcome! to the Rock Paper Scissor Game");
         System.out.println("");
         System.out.println("The winning rules of the game are:");
         System.out.println("        between rock and paper: Paper wins");
@@ -24,6 +24,7 @@ public class RockPaperScissorGame {
 
         System.out.println(name+" choose: "+Y);
         System.out.println("");
-        System.out.println("Now computer chooses....");    
+        System.out.println("Now computer chooses....");
+            
     }
 }
